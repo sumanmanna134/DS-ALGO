@@ -10,8 +10,8 @@ class Task2{
   //Write your login in getMinMax()
   //consider for this array [-1, -10, 90, 7, 0, 78, 1456]
   getMinMax(List<int>arr){
-    this.max = arr[0];
-    this.min = arr[0];
+    this.max = this.min = arr[0];
+    
 
     for(int i=0;i<arr.length;i++){
       if(arr[i]>max){
